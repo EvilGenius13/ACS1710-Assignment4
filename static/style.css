@@ -1,8 +1,12 @@
 body {
-    background-color: #e6faff;
+    background-image: url('/static/apps.16894.c02476d2-2378-4f60-8290-b6d4b3842643.79a2ef6a-4775-4c79-8d93-9caf077660eb.1bbd88a4-0a17-4750-91a0-cd7d98f58e9d');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     font-family: "Roboto", sans-serif;
+    opacity: .7;
+    
 }
 
 main {
@@ -16,6 +20,8 @@ main > section {
     padding: 20px;
     margin-top: 20px;
     width: 100%;
+    border-radius: 5px;
+    text-align: center;
 }
 
 fieldset {
@@ -25,4 +31,8 @@ fieldset {
 h1 a {
     color: #000;
     text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
